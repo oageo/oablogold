@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
-  theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
+  title: 'Osumi Akari blog',
+  description: 'Osumi Akariのブログです。',
+  theme: 'modern-blog',
   themeConfig: {
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#modifyblogpluginoptions
