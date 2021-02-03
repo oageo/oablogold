@@ -38,9 +38,13 @@ yarn add vuepress-theme-modern-blog -D
 ```
 [公式ドキュメント](https://github.com/z3by/vuepress-theme-modern-blog/blob/master/README.md)にも丁寧に解説されていますが、初めに上記コマンドを入力し、70秒ほどかけてインストールを行います。その後、<code>.vuepress/config/js</code>に移動したうえで、themeの部分を<code>theme: 'modern-blog'</code>と書き換えます。
 
-
+これでも十分きれいなのですが、ちょこっと手を加えていきます。初めに<code>node_modules\vuepress-theme-modern-blog\src\styles\index.styl</code>(Stylusファイル)に移動し、フォントの設定を確認します。インストールしたままですと、bodyのフォントがOpen Sansもしくはサンセリフ体という設定となっており、フォントを外部から落とすことは不要な通信の発生と思っている私の考え方と、単純に日本語フォントの表示に支障が発生しそうです。そのため下記のように[Font-familyメーカー](https://saruwakakun.com/font-family)を利用して、<code>blog\.vuepress\styles\index.styl</code>において設定しました。また、テーマサイドのGoogle Fonts読み込みをコメントアウトしました。
+```css
+font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans','TsukuARdGothic-Regular','Segoe UI','Helvetica','Arial',sans-serif;
+```
 
 ### 新規記事作成
+なぜだか知りませんが、VuePressにはHexoでいうところの<code>hexo new</code>といった、新規記事をテンプレートから作成する機能が公式でついていません。人力でファイル名を打ち込んでもよいのですが、面倒なのでコマンドを入力するだけでどうにかなるようにしていきたいと思います。OpenJNYさんの[VuePress でテンプレートから記事生成](https://qiita.com/OpenJNY/items/9b6f23ac7ec863ea7255)を**参考にしつつ**設定していこうかと思います。
 
 ## 参考サイト
 - [VuePress + Netlifyでブログ作成 ](https://meuniere.dev/posts/2020/08/06/create-vuepress.html) - むにえる牧場
