@@ -9,6 +9,13 @@ module.exports = {
     modifyBlogPluginOptions(blogPluginOptions) {
       return blogPluginOptions
     },
+    lang: 'ja-JP',
+    head: [
+      'meta', {
+          name: 'og:title',
+          content: 'Osumi Akariのブログ',
+        },
+    ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#nav
      */
@@ -21,6 +28,14 @@ module.exports = {
         text: 'Tags',
         link: '/tag/',
       },
+      {
+        text: 'Twitter',
+        link: 'https://twitter.com/Kig_OsumiAkari',
+      },
+      {
+        text: 'Wikimedia',
+        link: 'https://w.wiki/73H',
+      },
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
@@ -29,20 +44,16 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/Osumi-Akari',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://twitter.com/Kig_OsumiAkari',
         },
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
+          text: 'CC BY-SA',
           link: '',
         },
       ],

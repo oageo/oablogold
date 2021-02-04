@@ -46,6 +46,10 @@ font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシ�
 ### 新規記事作成
 なぜだか知りませんが、VuePressにはHexoでいうところの<code>hexo new</code>といった、新規記事をテンプレートから作成する機能が公式でついていません。人力でファイル名を打ち込んでもよいのですが、面倒なのでコマンドを入力するだけでどうにかなるようにしていきたいと思います。OpenJNYさんの[VuePress でテンプレートから記事生成](https://qiita.com/OpenJNY/items/9b6f23ac7ec863ea7255)を**参考にしつつ**設定していこうかと思います。
 
+![テスト用SVG](/images/test.svg)
+
+上に「テスト」とやる気のない字が表示されていたらば、恐らく画像表示に成功しています。失敗していたのならば連絡してください。
+
 ## 参考サイト
 - [VuePress + Netlifyでブログ作成 ](https://meuniere.dev/posts/2020/08/06/create-vuepress.html) - むにえる牧場
 - [VuePressで作ったblogに配布されているテーマを設定する](https://qiita.com/tomopict/items/9da7cf28c9bcd5f933cb) - tomopict

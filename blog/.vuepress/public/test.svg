@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="test.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 126.5089 54.066147"
+   height="54.066147mm"
+   width="126.5089mm">
+  <title
+     id="title43">テスト</title>
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect36"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect32"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect28"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect24"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect20"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect16"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect12"
+       effect="bspline" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="-11"
+     inkscape:window-height="986"
+     inkscape:window-width="1920"
+     fit-margin-bottom="1"
+     fit-margin-right="1"
+     fit-margin-top="1"
+     fit-margin-left="1"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="120.92127"
+     inkscape:cx="187.13723"
+     inkscape:zoom="1.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>テスト</dc:title>
+        <dc:date>2021/02/04</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Osumi Akari</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>Osumi Akari</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>テスト画像</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>画像表示用テストSVG</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-16.386905,-88.730044)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="レイヤー 1">
+    <path
+       d="m 40.065475,112.77864 c 0.756033,2.96113 1.511985,5.92194 1.858415,7.90629 0.34643,1.98435 0.283435,2.99227 -0.220562,4.81913 -0.503997,1.82687 -1.448917,4.47265 -2.614351,6.86647 -1.165434,2.39383 -2.551322,4.53566 -3.244257,5.73269 -0.692935,1.19702 -0.692935,1.449 -0.692935,1.70072 m -16.81994,-26.60007 c 6.551852,0.0633 12.977446,2.6e-4 19.465773,0 2.646151,-0.62971 5.039947,-1.25966 7.559524,-1.88988 2.772145,-0.50372 5.543915,-1.00768 8.315476,-1.51191 1.323207,-0.12573 2.772089,-0.12573 4.157739,-0.18899 M 17.386905,96.00595 c 8.31574,0 16.631217,0 22.512914,-0.615747 5.881698,-0.615747 9.489221,-1.904147 11.883159,-2.408055 2.393939,-0.503908 3.653835,-0.251929 4.913449,-7e-6"
+       style="fill:none;stroke:#808080;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path18" />
+    <path
+       d="m 84.477676,120.04523 c 0.693067,2.01619 1.386023,4.03206 2.268018,5.92196 0.881995,1.8899 1.952904,3.65375 3.338899,4.88209 1.385994,1.22834 3.086857,1.92128 4.472648,1.88969 1.385791,-0.0316 2.456698,-0.78752 4.22509,-0.6723 1.768389,0.11522 4.342489,1.14486 6.326839,2.59387 1.98434,1.44901 3.43322,3.33886 4.8819,5.22844 M 68.602677,96.00595 c 2.394133,0.189011 4.787982,0.377999 7.433835,0.472482 2.645853,0.09448 5.543612,0.09448 7.939883,-0.180596 2.396271,-0.275079 4.407209,-0.858899 6.202603,-1.425871 1.795394,-0.566971 3.433258,-1.133923 5.071265,-1.447717 1.638006,-0.313794 3.401775,-0.37912 4.000081,0.408436 0.598305,0.787555 0.09435,2.425418 -1.228587,4.913744 -1.322934,2.488322 -3.464761,5.827052 -6.299618,10.268332 -2.834857,4.44127 -6.362564,9.98481 -10.173858,15.49701 -3.811293,5.51219 -7.905955,10.99274 -12.000664,16.47335"
+       style="fill:none;stroke:#808080;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path26" />
+    <path
+       d="m 123.5253,112.6369 c 1.95311,2.39414 3.90599,4.78799 5.82736,5.70126 1.92136,0.91326 3.8112,0.34631 5.88137,0.4067 2.07016,0.0604 4.35557,0.75871 6.62312,1.45157 M 129.07887,89.769343 c -1.74607,5.612374 -3.52783,11.339457 -4.63025,16.536707 -1.10242,5.19725 -1.54339,9.92186 -1.22836,14.99313 0.31503,5.07127 1.38595,10.48882 2.26794,13.95363 0.882,3.46481 1.57494,4.97668 2.26775,6.48826"
+       style="fill:none;stroke:#808080;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path34" />
+  </g>
+</svg>
