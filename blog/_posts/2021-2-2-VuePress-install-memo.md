@@ -53,3 +53,4 @@ font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシ�
 ## 参考サイト
 - [VuePress + Netlifyでブログ作成 ](https://meuniere.dev/posts/2020/08/06/create-vuepress.html) - むにえる牧場
 - [VuePressで作ったblogに配布されているテーマを設定する](https://qiita.com/tomopict/items/9da7cf28c9bcd5f933cb) - tomopict
+- [VuePress で始める静的サイトブログ](https://openjny.github.io/posts/2019/12/28/hello-vuepress/) - $(ls /openjny/blog)
