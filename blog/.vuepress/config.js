@@ -28,14 +28,6 @@ module.exports = {
         text: 'Tags',
         link: '/tag/',
       },
-      {
-        text: 'Twitter',
-        link: 'https://twitter.com/Kig_OsumiAkari',
-      },
-      {
-        text: 'Wikimedia',
-        link: 'https://w.wiki/73H',
-      },
     ],
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/#footer
@@ -59,4 +51,10 @@ module.exports = {
       ],
     },
   },
+  markdown: {
+    externalLinks: {
+      target: '' //リンク属性を変更
+    },
+    linkify: true, //リンクを張っただけでリンクと認識させる
+  }
 }

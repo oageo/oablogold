@@ -38,9 +38,24 @@ yarn add vuepress-theme-modern-blog -D
 ```
 [公式ドキュメント](https://github.com/z3by/vuepress-theme-modern-blog/blob/master/README.md)にも丁寧に解説されていますが、初めに上記コマンドを入力し、70秒ほどかけてインストールを行います。その後、<code>.vuepress/config/js</code>に移動したうえで、themeの部分を<code>theme: 'modern-blog'</code>と書き換えます。
 
-これでも十分きれいなのですが、ちょこっと手を加えていきます。初めに<code>node_modules\vuepress-theme-modern-blog\src\styles\index.styl</code>(Stylusファイル)に移動し、フォントの設定を確認します。インストールしたままですと、bodyのフォントがOpen Sansもしくはサンセリフ体という設定となっており、フォントを外部から落とすことは不要な通信の発生と思っている私の考え方と、単純に日本語フォントの表示に支障が発生しそうです。そのため下記のように[Font-familyメーカー](https://saruwakakun.com/font-family)を利用して、<code>blog\.vuepress\styles\index.styl</code>において設定しました。また、テーマサイドのGoogle Fonts読み込みをコメントアウトしました。
+### カスタマイズ
+これでも十分きれいなのですが、ちょこっと手を加えていきます。
+
+手始めに<code>yarn vuepress eject</code>を行い、今後<code>.vuepress\theme</code>以下のコンポーネントを編集すれば良いようにしておきます。しかしまずはそのような外観を設定する前に、細かいところを自分好みに変更します。
+
+初めに<code>node_modules\vuepress-theme-modern-blog\src\styles\index.styl</code>(Stylusファイル)に移動し、フォントの設定を確認します。インストールしたままですと、bodyのフォントがOpen Sansもしくはサンセリフ体という設定となっており、フォントを外部から落とすことは不要な通信の発生と思っている私の考え方と、単純に日本語フォントの表示に支障が発生しそうです。そのため下記のように[Font-familyメーカー](https://saruwakakun.com/font-family)を利用して、<code>blog\.vuepress\styles\index.styl</code>において設定しました。また、テーマサイドのGoogle Fonts読み込みをコメントアウトしました。
 ```css
 font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシック','Hiragino Sans','TsukuARdGothic-Regular','Segoe UI','Helvetica','Arial',sans-serif;
+```
+
+次にリンク周りの設定を変更していきます。デフォルトですと、設定されたリンクを新しいタブで開いてしまう、<code>target="_blank"</code>が設定されてしまっているため、<code>blog\.vuepress\config.js</code>において設定を以下のように変更します。
+```javascript
+  markdown: {
+    externalLinks: {
+      target: ''
+    },
+    linkify: true,
+  }
 ```
 
 ### 新規記事作成
@@ -51,6 +66,7 @@ font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシ�
 上に「テスト」とやる気のない字が表示されていたらば、恐らく画像表示に成功しています。失敗していたのならば連絡してください。
 
 ## 参考サイト
-- [VuePress + Netlifyでブログ作成 ](https://meuniere.dev/posts/2020/08/06/create-vuepress.html) - むにえる牧場
-- [VuePressで作ったblogに配布されているテーマを設定する](https://qiita.com/tomopict/items/9da7cf28c9bcd5f933cb) - tomopict
-- [VuePress で始める静的サイトブログ](https://openjny.github.io/posts/2019/12/28/hello-vuepress/) - $(ls /openjny/blog)
+* [VuePress + Netlifyでブログ作成 ](https://meuniere.dev/posts/2020/08/06/create-vuepress.html) - むにえる牧場
+* [VuePressで作ったblogに配布されているテーマを設定する](https://qiita.com/tomopict/items/9da7cf28c9bcd5f933cb) - tomopict
+* [VuePress で始める静的サイトブログ](https://openjny.github.io/posts/2019/12/28/hello-vuepress/) - $(ls /openjny/blog)
+* [VuePress：Markdownを設定変更やプラグイン追加によってカスタマイズする方法](https://www.nxworld.net/vuepress-markdown-customize.html) - NxWorld
