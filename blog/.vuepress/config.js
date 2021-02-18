@@ -56,5 +56,5 @@ module.exports = {
       target: '' //リンク属性を変更
     },
     linkify: true, //リンクを張っただけでリンクと認識させる
-  }
+  },
 }

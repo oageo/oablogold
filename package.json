@@ -8,7 +8,6 @@
     "email": ""
   },
   "repository": "https://github.com/Osumi-Akari/oablog.git/oablog",
-  "licenses": "https://creativecommons.org/licenses/by-sa/4.0/",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"

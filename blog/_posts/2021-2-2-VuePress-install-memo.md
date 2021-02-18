@@ -57,6 +57,26 @@ font-family: YuGothic,'Yu Gothic','メイリオ', Meiryo,'ヒラギノ角ゴシ�
     linkify: true,
   }
 ```
+このようにすると別タブで開かないようになります。また<code>linkify</code>を<code>true</code>にしたので、URLだけでもリンクとなるようになりました。
+
+3番目にはサイトマップを自動で生成するプラグインを入れましょう。[VuePress でサイトマップを設定する - hene](https://hene.dev/blog/2019/05/02/sitemap)を参考に設定しました。リンク先に詳しく書かれているのですが、要するに検索エンジンが読む用の「このサイトの地図」を生成するものです。毎度のごとくyarnを使ってインストールします。
+```
+yarn add vuepress-plugin-sitemap -D
+```
+
+インストールが終わったら[Sitemap.orgのドキュメント](https://www.sitemaps.org/ja/protocol.html)を参考にしつつ設定を<code>config.js</code>に入れておきます。
+```javascript
+  url: "", //実際に運用するURLを入力
+  plugins: [
+    [
+      "sitemap",
+      {
+        hostname: url,
+        changefreq: "daily"
+      }
+    ]
+  ]
+```
 
 ### 新規記事作成
 なぜだか知りませんが、VuePressにはHexoでいうところの<code>hexo new</code>といった、新規記事をテンプレートから作成する機能が公式でついていません。人力でファイル名を打ち込んでもよいのですが、面倒なのでコマンドを入力するだけでどうにかなるようにしていきたいと思います。OpenJNYさんの[VuePress でテンプレートから記事生成](https://qiita.com/OpenJNY/items/9b6f23ac7ec863ea7255)を**参考にしつつ**設定していこうかと思います。
